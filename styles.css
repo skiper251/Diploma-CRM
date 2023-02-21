@@ -1,0 +1,40 @@
+/* The sidenav */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+/* Change the color of links on hover */
+.sidenav a:hover {
+    background-color: #ddd; 
+        color: black;
+}
+.sidenav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Page content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+a:link { color: blue; }          /* Непосещённые ссылки */
+a:visited { color: purple; }     /* Посещённые ссылки */
+a:hover { background: yellow; }  /* Ссылки при наведении */
+a:active { color: red; }         /* Активные ссылки */
